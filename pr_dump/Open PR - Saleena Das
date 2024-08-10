@@ -1,0 +1,15 @@
+PULL REQUEST - https://github.com/akshitagupta15june/Face-X/pull/1875
+ISSUE - https://github.com/akshitagupta15june/Face-X/issues/1787
+
+# Related Issues or Bug
+The current implementation of the face mask detection system was using outdated models that do not perform well in varying environmental conditions or on different face types. Issues have been observed with false positives and negatives, reducing the overall accuracy of the system.
+
+# Fixes:
+Face Mask Detection Deep Learning model using YOLOv7 #1787
+This PR #1875 addresses issue #1787 Face Mask Detection Deep Learning model using YOLOv7 , which is related to the need for improving the accuracy and robustness of the face mask detection model.
+
+# Info about Changes:
+This pull request introduces the YOLOv7 model into the Face Mask Detection project. YOLOv7 has been selected due to its superior performance in real-time object detection tasks compared to previous models. Key changes include:
+- Integration of YOLOv7 for improved detection in accuracy and speed.
+- All the comparison shown using the hyperparameters like the F1 curve, P curve, R curve, PR curve, confusion matrix.
+- Used preprocessing and postprocessing techniques in Roboflow to optimize the model's performance.
